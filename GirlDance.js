@@ -1,4 +1,6 @@
 let animationScript = {};
+// Contact: dikiiebator
+// Server: https://discord.gg/ZrfrNcfamp
 let frameHandles = [];
 let startTime = GameRules.GetGameTime();
 //let frameDuration = 0.09;
