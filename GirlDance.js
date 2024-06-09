@@ -1,10 +1,11 @@
 let animationScript = {};
-// Contact: dikiiebator
+// ContactDiscord: dikiiebator
 // Server: https://discord.gg/ZrfrNcfamp
 let frameHandles = [];
 let startTime = GameRules.GetGameTime();
 //let frameDuration = 0.09;
 
+let disc = Menu.AddToggle(['Animation'], 'discord.gg/ZrfrNcfamp', true);
 let xPos = Menu.AddSlider(["Animation"], "X Position", 0, 1920, 960, 5);
 let yPos = Menu.AddSlider(["Animation"], "Y Position", 0, 1080, 540, 5);
 let size = Menu.AddSlider(["Animation"], "Image Size", 50, 500, 100, 10);
